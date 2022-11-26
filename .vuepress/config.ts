@@ -53,10 +53,7 @@ export default defineUserConfig({
 				{ type: 'title', content: '微 信' },
 				{
 					type: 'text',
-					content: `
-          <ul>
-            <li>微信号：heibdyy67</li>
-          </ul>`,
+					content: `<image src="/assets/wx.jpg"></image>`,
 					style: 'font-size: 12px;'
 				}
 			]
