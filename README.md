@@ -16,9 +16,13 @@ bannerBrand:
   heroText: Lordaeron 注册入坑教程
   tagline: -部落工会CN  Reunion
   buttons:
-    - { text: 快速上手 , link: '/docs/cn/introduction' }
-    - { text: 简介, link: '/docs/style-default-api/introduce', type: 'plain' }
+    - { text: 快速上手 , link: '/docs/cn/quick-start' }
+    - { text: 简介, link: '/docs/cn/introduction', type: 'plain' }
 isShowTitleInHome: true
-actionText: About
-actionLink: /views/other/about
+footer: # 底部模块的配置
+  record: 域名备案文案
+  recordLink: 域名备案地址
+  cyberSecurityRecord: 公安备案文案
+  cyberSecurityLink: 公安备案地址
+  startYear: 2018
 ---

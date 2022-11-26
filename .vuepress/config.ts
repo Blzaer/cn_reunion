@@ -20,30 +20,22 @@ export default defineUserConfig({
 			'/docs/cn/': [
 				{
 					text: '开始',
-					children: ['introduction', 'quick-start', 'vpn-mail', 'register', 'login']
+					children: ['introduction', 'quick-start', 'vpn-mail', 'register', 'login', 'join-guild', 'acc', 'issues', 'questions']
 				}
-				// {
-				// 	text: '进阶',
-				// 	children: ['api', 'plugin']
-				// },
-				// {
-				// 	text: '高级',
-				// 	children: ['api', 'plugin']
-				// }
 			]
 		},
-		navbar: [
-			{ text: '首页', link: '/' },
-			{ text: '插件下载', link: '/categories/reco/1/' },
-			{ text: 'wa分享', link: '/tags/tag1/1/' },
-			{
-				text: '攻略',
-				children: [
-					{ text: '职业攻略', link: '/docs/theme-reco/theme' },
-					{ text: '副本视频', link: '/blogs/other/guide' }
-				]
-			}
-		],
+		// navbar: [
+		// 	{ text: '首页', link: '/' },
+		// 	{ text: '插件下载', link: '/categories/reco/1/' },
+		// 	{ text: 'wa分享', link: '/tags/tag1/1/' },
+		// 	{
+		// 		text: '攻略',
+		// 		children: [
+		// 			{ text: '职业攻略', link: '/docs/theme-reco/theme' },
+		// 			{ text: '副本视频', link: '/blogs/other/guide' }
+		// 		]
+		// 	}
+		// ],
 		bulletin: {
 			body: [
 				{ type: 'title', content: 'QQ 群' },
