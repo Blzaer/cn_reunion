@@ -5,6 +5,7 @@ import recoTheme from 'vuepress-theme-reco';
 export default defineUserConfig({
 	title: 'Lordaeron 注册入坑教程',
 	description: '- 部落工会CN  Reunion',
+	base: '/cn-wow.github.io/',
 	theme: recoTheme({
 		editLink: false,
 		catalogTitle: '本页目录',
@@ -13,9 +14,8 @@ export default defineUserConfig({
 		author: '七枷社',
 		docsRepo: 'https://github.com/Blzaer/cn_reunion.git',
 		docsBranch: 'master',
-		docsDir: '/',
+		docsDir: '/cn-wow.github.io',
 		lastUpdated: false,
-		base: '/cn-wow.github.io',
 		// series 为原 sidebar
 		series: {
 			'/docs/cn/': [
