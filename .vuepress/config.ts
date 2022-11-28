@@ -11,9 +11,9 @@ export default defineUserConfig({
 		style: '@vuepress-reco/style-default',
 		logo: '/logo-03.png',
 		author: '七枷社',
-		docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
-		docsBranch: 'main',
-		docsDir: 'example',
+		docsRepo: 'https://github.com/Blzaer/cn_reunion.git',
+		docsBranch: 'master',
+		docsDir: '/',
 		lastUpdated: false,
 		// series 为原 sidebar
 		series: {
