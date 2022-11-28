@@ -15,6 +15,7 @@ export default defineUserConfig({
 		docsBranch: 'master',
 		docsDir: '/',
 		lastUpdated: false,
+		base: '/cn-wow.github.io',
 		// series 为原 sidebar
 		series: {
 			'/docs/cn/': [
