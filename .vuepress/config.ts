@@ -32,8 +32,8 @@ export default defineUserConfig({
     },
     navbar: [
       { text: '首页', link: '/' },
-      { text: '插件下载', link: '/blogs/addons/basic' },
-      // { text: '宏分享', link: '/categories/tongyong/1/' },
+      // { text: '插件下载', link: '/blogs/addons/basic' },
+      { text: '宏分享', link: '/categories/tongyong/1/' },
       // { text: '攻略', link: '/blogs/strategy/' }
     ],
     bulletin: {
