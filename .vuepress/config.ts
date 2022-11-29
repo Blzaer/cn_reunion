@@ -5,7 +5,7 @@ import recoTheme from 'vuepress-theme-reco';
 export default defineUserConfig({
 	title: 'Lordaeron 注册入坑教程',
 	description: '- 部落工会CN  Reunion',
-	base: '/cn-wow.github.io/',
+	base: '/',
 	theme: recoTheme({
 		editLink: false,
 		catalogTitle: '本页目录',
