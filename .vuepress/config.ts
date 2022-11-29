@@ -19,23 +19,22 @@ export default defineUserConfig({
     lastUpdated: false,
     // series 为原 sidebar
     series: {
-      '/blogs/addons/': [
-        {
-          children: ['basic','senior'],
-        },
-      ],
       '/docs/cn/': [
         {
           text: '开始',
           children: ['introduction', 'quick-start', 'vpn-mail', 'register', 'login', 'join-guild', 'acc', 'issues', 'questions']
+        },
+        {
+          text: '进阶',
+          children: ['system']
         }
       ],
     },
     navbar: [
       { text: '首页', link: '/' },
       { text: '插件下载', link: '/blogs/addons/basic' },
-      { text: 'wa分享', link: '/blogs/wa/' },
-      { text: '攻略', link: '/blogs/strategy/' }
+      // { text: '宏分享', link: '/categories/tongyong/1/' },
+      // { text: '攻略', link: '/blogs/strategy/' }
     ],
     bulletin: {
       body: [
@@ -58,7 +57,7 @@ export default defineUserConfig({
           style: 'font-size: 12px;'
         }
       ]
-    }
+    },
     // valineConfig 配置与 1.x 一致
     // valineConfig: {
     //   appId: 'xxx',
@@ -70,5 +69,5 @@ export default defineUserConfig({
     //   // hideComments: true // 隐藏评论
     // },
   }),
-  debug: true,
+  // debug: true,
 });

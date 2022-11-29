@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "vuepress": "2.0.0-beta.51",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
     "vuepress-theme-reco": "2.0.0-beta.41"
   }
 }
