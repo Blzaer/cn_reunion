@@ -2241,6 +2241,21 @@
   "resolved" "https://registry.npmjs.org/es6-promise/-/es6-promise-4.2.3.tgz"
   "version" "4.2.3"
 
+"esbuild-darwin-64@^0.15.16":
+  "integrity" "sha512-wo2VWk/n/9V2TmqUZ/KpzRjCEcr00n7yahEdmtzlrfQ3lfMCf3Wa+0sqHAbjk3C6CKkR3WKK/whkMq5Gj4Da9g=="
+  "resolved" "https://registry.npmjs.org/esbuild-darwin-64/-/esbuild-darwin-64-0.15.16.tgz"
+  "version" "0.15.16"
+
+"esbuild-darwin-64@0.14.54":
+  "integrity" "sha512-jtdKWV3nBviOd5v4hOpkVmpxsBy90CGzebpbO9beiqUYVMBtSc0AL9zGftFuBon7PNDcdvNCEuQqw2x0wP9yug=="
+  "resolved" "https://registry.npmjs.org/esbuild-darwin-64/-/esbuild-darwin-64-0.14.54.tgz"
+  "version" "0.14.54"
+
+"esbuild-darwin-64@0.15.15":
+  "integrity" "sha512-ohZtF8W1SHJ4JWldsPVdk8st0r9ExbAOSrBOh5L+Mq47i696GVwv1ab/KlmbUoikSTNoXEhDzVpxUR/WIO19FQ=="
+  "resolved" "https://registry.npmjs.org/esbuild-darwin-64/-/esbuild-darwin-64-0.15.15.tgz"
+  "version" "0.15.15"
+
 "esbuild-loader@~2.19.0":
   "integrity" "sha512-urGNVE6Tl2rqx92ElKi/LiExXjGvcH6HfDBFzJ9Ppwqh4n6Jmx8x7RKAyMzSM78b6CAaJLhDncG5sPrL0ROh5Q=="
   "resolved" "https://registry.npmjs.org/esbuild-loader/-/esbuild-loader-2.19.0.tgz"
@@ -2252,16 +2267,6 @@
     "loader-utils" "^2.0.0"
     "tapable" "^2.2.0"
     "webpack-sources" "^2.2.0"
-
-"esbuild-windows-64@0.14.54":
-  "integrity" "sha512-AoHTRBUuYwXtZhjXZbA1pGfTo8cJo3vZIcWGLiUcTNgHpJJMC1rVA44ZereBHMJtotyN71S8Qw0npiCIkW96cQ=="
-  "resolved" "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.14.54.tgz"
-  "version" "0.14.54"
-
-"esbuild-windows-64@0.15.15":
-  "integrity" "sha512-xaAUIB2qllE888SsMU3j9nrqyLbkqqkpQyWVkfwSil6BBPgcPk3zOFitTTncEKCLTQy3XV9RuH7PDj3aJDljWA=="
-  "resolved" "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.15.15.tgz"
-  "version" "0.15.15"
 
 "esbuild@^0.14.39", "esbuild@^0.14.47":
   "integrity" "sha512-Cy9llcy8DvET5uznocPyqL3BFRrFXSVqbgpMJ9Wz8oVjZlh/zUSNbPRbov0VX7VxN2JH1Oa0uNxZ7eLRb62pJA=="
